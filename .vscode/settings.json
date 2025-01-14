@@ -17,5 +17,8 @@
         "editor.codeActionsOnSave": {
             "source.organizeImports": "explicit"
         }
+    },
+    "[css]": {
+        "editor.defaultFormatter": "bradlc.vscode-tailwindcss"
     }
 }
