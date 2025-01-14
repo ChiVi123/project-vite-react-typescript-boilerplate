@@ -1,3 +1,4 @@
+import '~config/logging';
 import '~css/main.css';
 
 import { StrictMode } from 'react';

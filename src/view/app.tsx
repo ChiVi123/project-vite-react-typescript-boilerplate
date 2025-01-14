@@ -8,6 +8,9 @@ import reactLogo from '~svg/react.svg';
 function App() {
     const [count, setCount] = useState(0);
 
+    // eslint-disable-next-line no-console
+    console.log('🚀 ~ App ~ count:', count);
+
     return (
         <>
             <div>
@@ -20,7 +23,7 @@ function App() {
             </div>
             <h1>Vite + React</h1>
             <div className='card'>
-                <button onClick={() => setCount((count) => count + 1)}>count is:: {count}</button>
+                <button onClick={() => setCount((count) => count + 1)}>count is {count}</button>
                 <p>
                     Edit <code>src/App.tsx</code> and save to test HMR
                 </p>
